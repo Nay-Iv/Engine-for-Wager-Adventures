@@ -1,2 +1,2 @@
 # Wayfarer
-A TTRPG stuff
+Some TTRPG stuff
