@@ -1,0 +1,16 @@
+.charNameRace, .statPointCount
+{
+    margin: 1em;
+    justify-content: center;
+}
+
+.charRace
+{
+    width: 7em;
+}
+
+.charPoints 
+{
+    margin: 0.5em 1em 1em 1em;
+    font-weight: bold;
+}
