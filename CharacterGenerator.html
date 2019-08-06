@@ -11,11 +11,12 @@
     <title>RoW/Character Generator</title>
   </head>
   <body>
-    <h1 class="container">RoW Character Generator</h1>
-    <form>
+    <form class="jumbotron genForm">
+        <h1 class="display-4">RoW Character Generator</h1>
+        <hr class="my-4">
         <div class="form-row align-items-center charNameRace">
             <div class="col-auto">
-                    <input type="name" class="form-control charName" id="nameInput" placeholder="Джон Сина">
+                    <input type="text" class="form-control charName" id="nameInput" placeholder="Джон Сина">
             </div>
             <div class="col-auto">
                 <select class="custom-select charRace">
@@ -42,10 +43,78 @@
                 some points
             </div>
         </div>
-        <div class="form-row align-items-center strengthMindCraft">
+        <div class="form-row align-items-center charStats">
             <div class="col">
+                    <span class="input-group-text" id="basic-addon1">Мощь</span>
+                    <select class="custom-select statStrength">
+                            <option selected>Ранг</option>
+                            <option value="1">А</option>
+                            <option value="2">Г</option>
+                            <option value="3">В</option>
+                            <option value="4">М</option>
+                            <option value="5">Л</option>
+                        </select>
+            </div>
+            <div class="col">
+                    <span class="input-group-text" id="basic-addon1">Ловкость</span>
+                    <select class="custom-select statAgility">
+                            <option selected>Ранг</option>
+                            <option value="1">А</option>
+                            <option value="2">Г</option>
+                            <option value="3">В</option>
+                            <option value="4">М</option>
+                            <option value="5">Л</option>
+                        </select>
+            </div>
+            <div class="col">
+                    <span class="input-group-text" id="basic-addon1">Разум</span>
+                    <select class="custom-select statMind">
+                            <option selected>Ранг</option>
+                            <option value="1">А</option>
+                            <option value="2">Г</option>
+                            <option value="3">В</option>
+                            <option value="4">М</option>
+                            <option value="5">Л</option>
+                        </select>
+            </div>
+            <div class="col">
+                    <span class="input-group-text" id="basic-addon1">Харизма</span>
+                    <select class="custom-select statCharisma">
+                            <option selected>Ранг</option>
+                            <option value="1">А</option>
+                            <option value="2">Г</option>
+                            <option value="3">В</option>
+                            <option value="4">М</option>
+                            <option value="5">Л</option>
+                        </select>
+            </div>
+            <div class="col">
+                    <span class="input-group-text" id="basic-addon1">Воля</span>
+                    <select class="custom-select statWill">
+                            <option selected>Ранг</option>
+                            <option value="1">А</option>
+                            <option value="2">Г</option>
+                            <option value="3">В</option>
+                            <option value="4">М</option>
+                            <option value="5">Л</option>
+                        </select>
+            </div>
+            <div class="col">
+                    <span class="input-group-text" id="basic-addon1">Дело</span>
+                    <select class="custom-select statCraft">
+                            <option selected>Ранг</option>
+                            <option value="1">А</option>
+                            <option value="2">Г</option>
+                            <option value="3">В</option>
+                            <option value="4">М</option>
+                            <option value="5">Л</option>
+                        </select>
             </div>
         </div>
+        <div class="confirmStats">
+            <button type="button" class="btn btn-dark">Готово</button>
+        </div>
+        
     </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
