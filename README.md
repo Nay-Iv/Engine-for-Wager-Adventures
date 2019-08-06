@@ -1,2 +1,2 @@
-# Wayfarer
+# EWA
 Some TTRPG stuff
