@@ -2,6 +2,7 @@
 {
     margin: 0 auto; 
     width:90%;
+    justify-content: center;
 }
 .charNameRace, .statPointCount
 {
@@ -14,6 +15,14 @@
     width: 7em;
 }
 
+.charRolesStats 
+{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
 .charPoints 
 {
     margin: 0.5em 1em 1em 1em;
@@ -22,9 +31,28 @@
 
 .charStats
 {
-    margin:auto;
+    margin: 1em;
+    align-items: center;
+    width: 15em;
+}
+
+.charStat 
+{
     width:7em;
 }
+
+.charRolesContainer
+{
+    margin: auto;
+    justify-content: center;
+    width: auto;
+}
+
+.charRolesDescription
+ {
+     margin: 1em;
+     width: auto;
+ }
 
 .confirmStats
 {
