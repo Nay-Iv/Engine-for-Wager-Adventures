@@ -21,14 +21,18 @@
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
+    width: auto;
 }
 
-.charPerks, .charAches 
+.charPerks, .charAches, .charQuirk 
 {
+    display: flex;
     width: 30em;
     text-align: center;
+    justify-content: center;
+    margin:auto;
 }
-.charPoints 
+.charPoints
 {
     margin: 0.5em 1em 1em 1em;
     font-weight: bold;
