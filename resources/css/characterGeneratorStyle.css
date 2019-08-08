@@ -15,7 +15,7 @@
     width: 7em;
 }
 
-.charRolesStats 
+.charRolesStats,  .charPerksAches
 {
     display: flex;
     flex-direction: row;
@@ -23,6 +23,11 @@
     justify-content: center;
 }
 
+.charPerks, .charAches 
+{
+    width: 30em;
+    text-align: center;
+}
 .charPoints 
 {
     margin: 0.5em 1em 1em 1em;
@@ -41,7 +46,7 @@
     width:7em;
 }
 
-.charRolesContainer
+.charRolesContainer, .charQuirks
 {
     margin: auto;
     justify-content: center;
