@@ -15,7 +15,13 @@
     width: 7em;
 }
 
-.charRolesStats,  .charPerksAches
+.pointsButtons 
+{
+    display: contents;
+    
+}
+
+.charRolesStats, .charPerksAches
 {
     display: flex;
     flex-direction: row;
@@ -27,7 +33,7 @@
 .charPerks, .charAches, .charQuirk 
 {
     display: flex;
-    width: 30em;
+    width: 67em;
     text-align: center;
     justify-content: center;
     margin:auto;
