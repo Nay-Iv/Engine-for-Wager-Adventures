@@ -1,2 +1,3 @@
-# Wayfarer
+# EWA
 Some TTRPG stuff
+RoW module
