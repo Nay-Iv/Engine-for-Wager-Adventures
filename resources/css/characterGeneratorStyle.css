@@ -1,0 +1,95 @@
+.genForm 
+{
+    margin: 0 auto; 
+    width:90%;
+    justify-content: center;
+}
+.charNameRace, .statPointCount
+{
+    margin: 1em;
+    justify-content: center;
+}
+
+.charRace
+{
+    width: 7em;
+}
+
+<<<<<<< HEAD
+.charRolesStats 
+=======
+.pointsButtons 
+{
+    display: contents;
+    
+}
+
+.charRolesStats, .charPerksAches
+>>>>>>> f2c48e2c98ae9e96a39bf3dda2c4e8e25c60f456
+{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+<<<<<<< HEAD
+}
+
+.charPoints 
+=======
+    width: auto;
+}
+
+.charPerks, .charAches, .charQuirk 
+{
+    display: flex;
+    width: 67em;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+.charPoints
+>>>>>>> f2c48e2c98ae9e96a39bf3dda2c4e8e25c60f456
+{
+    margin: 0.5em 1em 1em 1em;
+    font-weight: bold;
+}
+
+.charStats
+{
+    margin: 1em;
+    align-items: center;
+    width: 15em;
+}
+
+<<<<<<< HEAD
+.charStat 
+=======
+.charStat
+>>>>>>> f2c48e2c98ae9e96a39bf3dda2c4e8e25c60f456
+{
+    width:7em;
+}
+
+<<<<<<< HEAD
+.charRolesContainer
+=======
+.charRolesContainer, .charQuirks
+>>>>>>> f2c48e2c98ae9e96a39bf3dda2c4e8e25c60f456
+{
+    margin: auto;
+    justify-content: center;
+    width: auto;
+}
+
+.charRolesDescription
+ {
+     margin: 1em;
+     width: auto;
+ }
+
+.confirmStats
+{
+    display: flex;
+    margin:1em;
+    justify-content: center;
+}

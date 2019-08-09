@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/resources/css/characterGeneratorStyle.css"/>
+    <title>RoW/Character Generator</title>
+  </head>
+  <body>
+    <form class="jumbotron genForm">
+        <h1 class="display-4">RoW Character Generator</h1>
+        <hr class="my-4">
+        <div class="form-row align-items-center charNameRace">
+            <div class="col-auto">
+                    <input type="text" class="form-control charName" id="nameInput" placeholder="Джон Сина">
+            </div>
+            <div class="col-auto">
+                <select class="custom-select charRace">
+                    <option selected>Раса</option>
+                    <option value="1">Анс</option>
+                    <option value="2">Атори</option>
+                    <option value="3">Дваар</option>
+                    <option value="4">Дж'а</option>
+                    <option value="5">Д'а</option>
+                    <option value="6">Т'а</option>
+                    <option value="7">Ч'а</option>
+                    <option value="8">Гнум</option>
+                    <option value="9">Кометар</option>
+                </select>
+            </div>
+        </div>
+        <div class="charRolesStats">
+            <div class="card charStatsBlock">
+                <h5 class="card-header">Параметры</h5>
+                <div class="form-row align-items-center statPointCount">
+                    <div>
+                        <label>
+                            Осталось очков:
+                        </label>
+                    </div>
+                    <div class="charPoints">
+                        some points
+                    </div>
+                </div>
+                <div class="form-row align-items-center charStats">
+                    <div class="col charStat">
+                            <span class="input-group-text" id="basic-addon1">Мощь</span>
+                            <select class="custom-select statStrength">
+                                    <option selected>Ранг</option>
+                                    <option value="1">А</option>
+                                    <option value="2">Г</option>
+                                    <option value="3">В</option>
+                                    <option value="4">М</option>
+                                    <option value="5">Л</option>
+                                </select>
+                    </div>
+                    <div class="col charStat">
+                            <span class="input-group-text" id="basic-addon1">Ловкость</span>
+                            <select class="custom-select statAgility">
+                                    <option selected>Ранг</option>
+                                    <option value="1">А</option>
+                                    <option value="2">Г</option>
+                                    <option value="3">В</option>
+                                    <option value="4">М</option>
+                                    <option value="5">Л</option>
+                                </select>
+                    </div>
+                    <div class="col charStat">
+                            <span class="input-group-text" id="basic-addon1">Разум</span>
+                            <select class="custom-select statMind">
+                                    <option selected>Ранг</option>
+                                    <option value="1">А</option>
+                                    <option value="2">Г</option>
+                                    <option value="3">В</option>
+                                    <option value="4">М</option>
+                                    <option value="5">Л</option>
+                                </select>
+                    </div>
+                    <div class="col charStat">
+                            <span class="input-group-text" id="basic-addon1">Харизма</span>
+                            <select class="custom-select statCharisma">
+                                    <option selected>Ранг</option>
+                                    <option value="1">А</option>
+                                    <option value="2">Г</option>
+                                    <option value="3">В</option>
+                                    <option value="4">М</option>
+                                    <option value="5">Л</option>
+                                </select>
+                    </div>
+                    <div class="col charStat">
+                            <span class="input-group-text" id="basic-addon1">Воля</span>
+                            <select class="custom-select statWill">
+                                    <option selected>Ранг</option>
+                                    <option value="1">А</option>
+                                    <option value="2">Г</option>
+                                    <option value="3">В</option>
+                                    <option value="4">М</option>
+                                    <option value="5">Л</option>
+                                </select>
+                    </div>
+                    <div class="col charStat">
+                            <span class="input-group-text" id="basic-addon1">Дело</span>
+                            <select class="custom-select statCraft">
+                                    <option selected>Ранг</option>
+                                    <option value="1">А</option>
+                                    <option value="2">Г</option>
+                                    <option value="3">В</option>
+                                    <option value="4">М</option>
+                                    <option value="5">Л</option>
+                                </select>
+                    </div>
+                </div>
+<<<<<<< HEAD
+            </div>
+            <div class="card charRoles">
+                    <h5 class="card-header">Амплуа</h5>
+                    <div class="card-body  charRolesContainer">
+                        <div class="form-row align-items-center">
+                            <div class="col charRoleT3">
+                                    <span class="input-group-text" id="basic-addon1">T3</span>
+                                    <select class="custom-select charRole">
+                                            <option selected>Роль</option>
+                                            <option value="1">Боец</option>
+                                            <option value="2">Ловкач</option>
+                                            <option value="3">Умник</option>
+                                            <option value="4">Артист</option>
+                                            <option value="5">Работяга</option>
+                                            <option value="6">Упорный</option>
+                                            <option value="7">Жрец</option>
+                                            <option value="8">Маг</option>
+                                            <option value="9">Алхимик</option>
+                                            <option value="10">Инженер</option>
+                                    </select>
+                            </div>
+                            <div class="col charRoleT2">
+                                    <span class="input-group-text" id="basic-addon1">T2</span>
+                                    <select class="custom-select charRole">
+                                            <option selected>Роль</option>
+                                            <option value="1">Боец</option>
+                                            <option value="2">Ловкач</option>
+                                            <option value="3">Умник</option>
+                                            <option value="4">Артист</option>
+                                            <option value="5">Работяга</option>
+                                            <option value="6">Упорный</option>
+                                            <option value="7">Жрец</option>
+                                            <option value="8">Маг</option>
+                                            <option value="9">Алхимик</option>
+                                            <option value="10">Инженер</option>
+                                    </select>
+                            </div>
+                            <div class="col charRoleT1">
+                                    <span class="input-group-text" id="basic-addon1">T1</span>
+                                    <select class="custom-select charRole">
+                                            <option selected>Роль</option>
+                                            <option value="1">Боец</option>
+                                            <option value="2">Ловкач</option>
+                                            <option value="3">Умник</option>
+                                            <option value="4">Артист</option>
+                                            <option value="5">Работяга</option>
+                                            <option value="6">Упорный</option>
+                                            <option value="7">Жрец</option>
+                                            <option value="8">Маг</option>
+                                            <option value="9">Алхимик</option>
+                                            <option value="10">Инженер</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <div class="card charRolesDescription">
+                                <h5 class="card-header">Описание роли</h5>
+                                <div class="card-body  charRolesDescriptionContainer">
+                                        <p class="card-text">Текст описания.</p>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+=======
+            </div>
+            <div class="card charRoles">
+                    <h5 class="card-header">Амплуа</h5>
+                    <div class="card-body  charRolesContainer">
+                        <div class="form-row align-items-center">
+                            <div class="col charRoleT3">
+                                    <span class="input-group-text" id="basic-addon1">T3</span>
+                                    <select class="custom-select charRole">
+                                            <option selected>Роль</option>
+                                            <option value="1">Боец</option>
+                                            <option value="2">Ловкач</option>
+                                            <option value="3">Умник</option>
+                                            <option value="4">Артист</option>
+                                            <option value="5">Работяга</option>
+                                            <option value="6">Упорный</option>
+                                            <option value="7">Жрец</option>
+                                            <option value="8">Маг</option>
+                                            <option value="9">Алхимик</option>
+                                            <option value="10">Инженер</option>
+                                    </select>
+                            </div>
+                            <div class="col charRoleT2">
+                                    <span class="input-group-text" id="basic-addon1">T2</span>
+                                    <select class="custom-select charRole">
+                                            <option selected>Роль</option>
+                                            <option value="1">Боец</option>
+                                            <option value="2">Ловкач</option>
+                                            <option value="3">Умник</option>
+                                            <option value="4">Артист</option>
+                                            <option value="5">Работяга</option>
+                                            <option value="6">Упорный</option>
+                                            <option value="7">Жрец</option>
+                                            <option value="8">Маг</option>
+                                            <option value="9">Алхимик</option>
+                                            <option value="10">Инженер</option>
+                                    </select>
+                            </div>
+                            <div class="col charRoleT1">
+                                    <span class="input-group-text" id="basic-addon1">T1</span>
+                                    <select class="custom-select charRole">
+                                            <option selected>Роль</option>
+                                            <option value="1">Боец</option>
+                                            <option value="2">Ловкач</option>
+                                            <option value="3">Умник</option>
+                                            <option value="4">Артист</option>
+                                            <option value="5">Работяга</option>
+                                            <option value="6">Упорный</option>
+                                            <option value="7">Жрец</option>
+                                            <option value="8">Маг</option>
+                                            <option value="9">Алхимик</option>
+                                            <option value="10">Инженер</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <div class="card charRolesDescription">
+                                <h5 class="card-header">Описание роли</h5>
+                                <div class="card-body  charRolesDescriptionContainer">
+                                        <p class="card-text">Текст описания.</p>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="card allThePoints">
+                    <h5 class="card-header">Удача/здоровье/дело</h5>
+                    <div class="pointsButtons">
+                            <span class="input-group-text pointBadge">ОЗ:</span>
+                            <button type="button" class="btn btn-light">Вытянуть здоровье</button>
+                            <span class="input-group-text pointBadge">ОУ:</span>
+                            <button type="button" class="btn btn-light">Вытянуть удачу</button>
+                            <span class="input-group-text pointBadge">Заряды:</span>
+                            <button type="button" class="btn btn-light">Вытянуть заряды</button>
+                    
+                    
+                    </div>      
+            </div>
+>>>>>>> f2c48e2c98ae9e96a39bf3dda2c4e8e25c60f456
+        </div>  
+        <div class="confirmStats">
+        <button type="button" class="btn btn-dark">Готово</button>
+        </div>
+<<<<<<< HEAD
+=======
+        <div class="card charQuirks">
+            <h5 class="card-header">Фишечки/шишечки</h5>
+            <br>
+            <div>
+                <select class="custom-select charQuirk">
+                        <option selected>Параметр</option>
+                        <option value="1">Мощь</option>
+                        <option value="2">Ловкость</option>
+                        <option value="3">Разум</option>
+                        <option value="4">Харизма</option>
+                        <option value="5">Воля</option>
+                        <option value="6">Дело</option>
+                </select>
+                <br>
+            <div class="charPerksAches">
+                <ul class="list-group charPerks">
+                    <li class="list-group-item active">Фишечки</li>
+                    <li class="list-group-item">    
+                        <div class="accordion" id="accordionPerks">
+                            <div class="card">
+                            <div class="card-header" id="PerkOne">
+                                <h2 class="mb-0">
+                                    <input typ e="checkbox" aria-label="Checkbox for following text input">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Фишечка #1
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="PerkOne" data-parent="#accordionPerks">
+                                <div class="card-body">
+                                Описание фишечки №1
+                                </div>
+                            </div>
+                            </div>
+                            <div class="card">
+                            <div class="card-header" id="PerkTwo">
+                                <h2 class="mb-0">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Фишечка #2
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="PerkTwo" data-parent="#accordionPerks">
+                                <div class="card-body">
+                                Описание фишечки №2
+                                </div>
+                            </div>
+                            </div>
+                            <div class="card">
+                            <div class="card-header" id="PerkThree">
+                                <h2 class="mb-0">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Фишечка #3
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="PerkThree" data-parent="#accordionPerks">
+                                <div class="card-body">
+                                Описание фишечки №3
+                                </div>
+                            </div>
+                            </div>
+                            <div class="card">
+                            <div class="card-header" id="PerkFour">
+                                <h2 class="mb-0">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Фишечка #4
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="PerkFour" data-parent="#accordionPerks">
+                                <div class="card-body">
+                                Описание фишечки №4
+                                </div>
+                            </div>
+                            </div>
+                            <div class="card">
+                            <div class="card-header" id="PerkFive">
+                                <h2 class="mb-0">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive1" aria-expanded="false" aria-controls="collapseFive">
+                                    Фишечка #5
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="PerkFive" data-parent="#accordionPerks">
+                                <div class="card-body">
+                                Описание фишечки №5
+                                </div>
+                            </div>
+                            </div>
+                            <div class="card">
+                            <div class="card-header" id="PerkSix">
+                                <h2 class="mb-0">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Фишечка #6
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="PerkSix" data-parent="#accordionPerks">
+                                <div class="card-body">
+                                Описание фишечки №6
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="list-group charAches">
+                        <li class="list-group-item active">Шишечки</li>
+                        <li class="list-group-item"> 
+                            <div class="accordion" id="accordionAches">
+                                <div class="card">
+                                <div class="card-header" id="AcheOne">
+                                    <h2 class="mb-0">
+                                        <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Шишечка #1
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="AcheOne" data-parent="#accordionAches">
+                                    <div class="card-body">
+                                    Описание шишечки №1
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="card">
+                                <div class="card-header" id="AcheTwo">
+                                    <h2 class="mb-0">
+                                        <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Шишечка #2
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="AcheTwo" data-parent="#accordionAches">
+                                    <div class="card-body">
+                                    Описание Шишечки №2
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="card">
+                                <div class="card-header" id="AcheThree">
+                                    <h2 class="mb-0">
+                                        <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Шишечка #3
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="AcheThree" data-parent="#accordionAches">
+                                    <div class="card-body">
+                                    Описание Шишечки №3
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="card">
+                                <div class="card-header" id="AcheFour">
+                                    <h2 class="mb-0">
+                                        <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Шишечка #4
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="AcheFour" data-parent="#accordionAches">
+                                    <div class="card-body">
+                                    Описание шишечки №4
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="card">
+                                <div class="card-header" id="AcheFive">
+                                    <h2 class="mb-0">
+                                        <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Шишечка #5
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="AcheFive" data-parent="#accordionAches">
+                                    <div class="card-body">
+                                    Описание Шишечки №5
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="card">
+                                <div class="card-header" id="AcheSix">
+                                    <h2 class="mb-0">
+                                        <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Шишечка #6
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="AcheSix" data-parent="#accordionAches">
+                                    <div class="card-body">
+                                    Описание Шишечки №6
+                                    </div>
+                                </div>
+                                </div>
+                        </div> 
+                    </li>  
+                </ul>
+            </div>
+            </div>
+            <div class="confirmStats">
+                    
+            </div>
+            <div class="confirmStats">
+                    <button type="button" class="btn btn-dark">Выгрузить в pdf</button>
+            </div>
+        </div>
+>>>>>>> f2c48e2c98ae9e96a39bf3dda2c4e8e25c60f456
+    </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
