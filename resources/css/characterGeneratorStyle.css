@@ -15,9 +15,6 @@
     width: 7em;
 }
 
-<<<<<<< HEAD
-.charRolesStats 
-=======
 .pointsButtons 
 {
     display: contents;
@@ -25,17 +22,15 @@
 }
 
 .charRolesStats, .charPerksAches
->>>>>>> f2c48e2c98ae9e96a39bf3dda2c4e8e25c60f456
 {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
-<<<<<<< HEAD
 }
 
 .charPoints 
-=======
+{
     width: auto;
 }
 
@@ -48,7 +43,6 @@
     margin:auto;
 }
 .charPoints
->>>>>>> f2c48e2c98ae9e96a39bf3dda2c4e8e25c60f456
 {
     margin: 0.5em 1em 1em 1em;
     font-weight: bold;
@@ -61,20 +55,12 @@
     width: 15em;
 }
 
-<<<<<<< HEAD
-.charStat 
-=======
 .charStat
->>>>>>> f2c48e2c98ae9e96a39bf3dda2c4e8e25c60f456
 {
     width:7em;
 }
 
-<<<<<<< HEAD
-.charRolesContainer
-=======
 .charRolesContainer, .charQuirks
->>>>>>> f2c48e2c98ae9e96a39bf3dda2c4e8e25c60f456
 {
     margin: auto;
     justify-content: center;
