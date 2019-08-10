@@ -34,7 +34,7 @@
     width: auto;
 }
 
-.charPerks, .charAches, .charQuirk 
+.charPerks, .charAches
 {
     display: flex;
     width: 67em;
@@ -42,6 +42,16 @@
     justify-content: center;
     margin:auto;
 }
+
+.charQuirk 
+{
+    width: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+
 .charPoints
 {
     margin: 0.5em 1em 1em 1em;
