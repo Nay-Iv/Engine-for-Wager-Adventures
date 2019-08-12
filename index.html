@@ -19,7 +19,7 @@
                     <input type="text" class="form-control charName" id="nameInput" placeholder="Джон Сина">
             </div>
             <div class="col-auto">
-                <select class="custom-select charRace">
+                <select class="custom-select charRace" id="raceInput">
                     <option selected>Раса</option>
                     <option value="1">Анс</option>
                     <option value="2">Атори</option>
@@ -43,14 +43,14 @@
                             Осталось очков:
                         </label>
                     </div>
-                    <div class="charPoints">
+                    <div class="charPoints" id="pointCounter">
                         some points
                     </div>
                 </div>
                 <div class="form-row align-items-center charStats">
                     <div class="col charStat">
                             <span class="input-group-text" id="basic-addon1">Мощь</span>
-                            <select class="custom-select statStrength">
+                            <select class="custom-select statStrength" id="mightRank">
                                     <option selected>Ранг</option>
                                     <option value="1">А</option>
                                     <option value="2">Г</option>
@@ -61,7 +61,7 @@
                     </div>
                     <div class="col charStat">
                             <span class="input-group-text" id="basic-addon1">Ловкость</span>
-                            <select class="custom-select statAgility">
+                            <select class="custom-select statAgility" id="agilityRank">
                                     <option selected>Ранг</option>
                                     <option value="1">А</option>
                                     <option value="2">Г</option>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="col charStat">
                             <span class="input-group-text" id="basic-addon1">Разум</span>
-                            <select class="custom-select statMind">
+                            <select class="custom-select statMind" id="mindRank">
                                     <option selected>Ранг</option>
                                     <option value="1">А</option>
                                     <option value="2">Г</option>
@@ -83,7 +83,7 @@
                     </div>
                     <div class="col charStat">
                             <span class="input-group-text" id="basic-addon1">Харизма</span>
-                            <select class="custom-select statCharisma">
+                            <select class="custom-select statCharisma" id="charismaRank">
                                     <option selected>Ранг</option>
                                     <option value="1">А</option>
                                     <option value="2">Г</option>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="col charStat">
                             <span class="input-group-text" id="basic-addon1">Воля</span>
-                            <select class="custom-select statWill">
+                            <select class="custom-select statWill" id="willRank">
                                     <option selected>Ранг</option>
                                     <option value="1">А</option>
                                     <option value="2">Г</option>
@@ -105,7 +105,7 @@
                     </div>
                     <div class="col charStat">
                             <span class="input-group-text" id="basic-addon1">Дело</span>
-                            <select class="custom-select statCraft">
+                            <select class="custom-select statCraft" id="craftRank">
                                     <option selected>Ранг</option>
                                     <option value="1">А</option>
                                     <option value="2">Г</option>
@@ -122,7 +122,7 @@
                         <div class="form-row align-items-center">
                             <div class="col charRoleT3">
                                     <span class="input-group-text" id="basic-addon1">T3</span>
-                                    <select class="custom-select charRole">
+                                    <select class="custom-select charRole" id="RoleT3">
                                             <option selected>Роль</option>
                                             <option value="1">Боец</option>
                                             <option value="2">Ловкач</option>
@@ -279,7 +279,7 @@
                             <div class="card-header" id="PerkFive">
                                 <h2 class="mb-0">
                                     <input type="checkbox" aria-label="Checkbox for following text input">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive1" aria-expanded="false" aria-controls="collapseFive">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                     Фишечка #5
                                 </button>
                                 </h2>
